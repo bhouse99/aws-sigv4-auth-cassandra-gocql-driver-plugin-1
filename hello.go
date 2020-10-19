@@ -1,7 +1,7 @@
 package hello
 
-import "rsc.io/quote"
+import "fmt"
 
 func Hello() string {
-    return quote.Hello()
+    fmt.Println("hello world")
 }
